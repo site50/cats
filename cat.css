@@ -242,7 +242,9 @@ margin-left: -15rem;
 }
 
 @media (min-width: 768px) {
-    .box3{  margin-right: -3.5rem;}
+    .box3{  margin-right: -3.5rem;
+    margin-left: 1rem;
+    }
 .newcolor {
     margin-left: -75rem;
 } 
@@ -253,7 +255,7 @@ margin-left: -15rem;
 .box1 {
     width: 39rem;
 }
- .all-cat,.all-cat1,.all-cat2,.all-cat3,.all-cat4{   margin: -4rem 1rem;
+ .all-cat,.all-cat1,.all-cat2,.all-cat3,.all-cat4{   margin-left: 1rem;
     }
 }
 @media (min-width: 1024px)
