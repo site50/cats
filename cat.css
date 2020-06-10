@@ -148,7 +148,6 @@ margin-right: 8rem;
 padding-top: 1rem;
 color: Black;
 padding-bottom: 3rem;
-background-color:blue;
 }
 html {
 scroll-behavior: smooth;
@@ -230,50 +229,124 @@ background-color: #ff6347;
 border-radius: 25%;
 }
 .cot{
-background-color: green;
 height: 50rem;
 }
-
 .newcolor {
 margin-left: -15rem;
 }
 @media (min-width: 736px) {
-
-}
-
-@media (min-width: 768px) {
-    .box3{  margin-right: -3.5rem;
-    margin-left: 1rem;
-    }
 .newcolor {
-    margin-left: -75rem;
+margin-left: -70rem;
 } 
-    .cot {
-    height: 100rem;
+.mcoon,.descr {
+margin: 3rem 30rem 5rem;
 }
-
+.mcoon {
+color:white;
+}
+.ry8{
+width: 68rem;
+}
+.box3{
+margin-left: 0rem;
+margin-right: 0rem;
+width: 37rem;	
+}
+.cot {
+height: 108rem;
+}
+}
+@media (min-width: 768px) {
+.box3{  margin-right: -3.5rem;
+margin-left: 1rem;
+}
+.newcolor {
+margin-left: -75rem;
+} 
+.cot {
+height: 106rem;
+}
 .box1 {
-    width: 39rem;
+width: 39rem;
 }
- .all-cat,.all-cat1,.all-cat2,.all-cat3,.all-cat4
-    {   margin-left: 1rem;
-    }
+.descr {
+margin: 3rem 31rem 5rem;
+}
+.mcoon {
+color:white;
+}
+}
+@media (min-width: 800px)
+{
+.cot {
+height: 107rem;
+} 
+.mcoon {
+color:white;
+}  
+.box3{
+width: 42rem;
+}	
 }
 @media (min-width: 1024px)
 {
 .box3 {    margin-left: 4rem;
-    margin-right: 3rem;           
-  }  
-  .cot {
-    height: 100rem;
+margin-right: 3rem;           
+}  
+.cot {
+height: 105rem;
 }
-  }
+.newcolor {
+margin-left: -19rem;
+} 
+.mcoon {
+color:white;
+}
+.ry8{
+width: 92rem;
+}
+.box3{
+width: 62rem;
+}
+}
+@media (min-width: 1112px)
+{ .newcolor {
+margin-left: -13rem;
+} 
+.cot {
+height: 105rem;
+} 
+.mcoon {
+color:white;
+}
+.ry8{
+width: 105rem;
+}
+.box3{
+width: 70rem;
+}
+}
 @media (min-width: 1200px)
 {
- .newcolor {
-    margin-left: 5rem;
-}    
+.all-cat2{
+height: 44rem;	
+}
+.newcolor {
+margin-left: -5rem;
+}  
+.bn{
+height: 24rem;
+}  
 .cot {
-    height: 40rem;
-}    
+height: 50rem;
+}
+.mcoon {
+color:white;
+} 
+.ry8{
+width: 115rem;
+}
+.box3{
+width: 80rem;
+}
 }
