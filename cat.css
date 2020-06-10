@@ -268,3 +268,12 @@ margin-left: -15rem;
     height: 100rem;
 }
   }
+@media (min-width: 1200px)
+{
+ .newcolor {
+    margin-left: 5rem;
+}    
+.cot {
+    height: 40rem;
+}    
+}
