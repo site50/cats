@@ -355,7 +355,125 @@ background-size: 18rem 15rem;
 background-color:SteelBlue;
 }		
 }
-@media (min-width: 375px)and (max-width: 412px)
+@media (min-width: 412px)and (max-width: 412px)
+{
+body{
+background-size: 56%; 
+}
+.newcolor 
+{ width: 13rem;
+height: 13rem;
+margin-left: -76rem;
+margin-top: -3rem;
+font-size: 1.5rem;
+}
+h2{
+font-size: 1.8rem !important;
+width: 99%;
+}
+.text2 {
+margin-left: 17rem;
+}
+.box3 {
+font-size: 1.2rem;
+padding-right:1rem;
+padding-left:1rem;
+width: 128% !important;
+}
+.box1{
+width: 99% !important;;
+} 
+h4{
+font-size: 1.5rem;
+}
+.cot {
+height:115rem !important;;
+}
+.bn {
+width: 95%;
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 1.5rem;
+margin-top:-10rem;
+}
+.cat {
+background: url(img/2hil.png) -1rem 3rem no-repeat;
+background-size: 13rem 18rem;  
+}
+.cat1 {
+background:  url(img/ro3.png) -1rem 3rem no-repeat;
+background-size: 11rem 20rem;
+}
+.cat2 {
+background: url(img/pur1.png) -1rem 3rem no-repeat;
+background-size: 19rem 23rem;
+}
+.ry7{
+width: 90% !important;
+}
+.box2,.box6,.box5 {
+font-size: 1.5rem;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 1rem;
+width: 90%;
+}
+.ry8{
+width: 99% !important;
+}
+.cat7 {
+width: 100%;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.box7 {
+margin-left:1rem;
+width: 32rem;
+}
+.fon, .fon1, .fon2, .fon3, .fon4
+{margin-left:10%;
+width: 80%;
+}
+.backgr {
+margin: 2rem 1.4rem;
+width: 90%;
+}
+.mytext{
+font-size: 1.8rem;
+padding-top:0.6rem;
+margin: 2rem 1rem -1rem !important;
+}
+.descr,  .beng, .mcoon {
+width: 22rem;
+margin: 1rem 11.5rem 5rem;
+padding-left: 1rem;
+font-size: 1.25rem;
+}
+.all-cat
+{   background: url(img/per1.png) 1rem 22rem no-repeat;  
+background-size: 37%;
+}
+.all-cat1
+{  background: url(img/mey100.png) -1rem 26rem no-repeat;  
+background-size: 30%;
+background-color:#3e2914;
+}
+.all-cat2
+{  background: url(img/nor.jpg) -2em 19rem no-repeat; 
+background-size: 28%;
+color:blue !important;
+}
+.all-cat3
+{  background: url(img/bri.png) 0.2rem 24rem no-repeat; 
+background-size: 18%;
+}  
+.all-cat4
+{background: url(img/cat9.png) 4rem 24rem no-repeat;
+background-size: 34%;
+background-color:SteelBlue;
+}	
+}
+@media (min-width: 375px)and (max-width: 375px)
 {
 body{
 background-size: 56%; 
