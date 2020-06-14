@@ -30,7 +30,6 @@ background: pink;
 border-radius: 10%;
 top:-0.5rem;
 right:109rem;
-marging-left:14rem;
 }
 .img{
 width: 19rem; 
@@ -197,7 +196,6 @@ text-align: justify;
 padding-left:1rem;
 }
 .mytext{font-size: 2.5rem;
-padding-top: rem;
 margin: 2rem -1rem -1rem;
 }
 .mcoon{
@@ -234,7 +232,375 @@ height: 50rem;
 .newcolor {
 margin-left: -15rem;
 }
-@media (min-width: 736px) {
+@media (min-width: 240px)and (max-width: 374px)
+{
+body{
+background-size: 92%; 
+margin:-17rem ;
+margin-top:28rem;
+}
+.newcolor 
+{  margin-left: -78rem !important;
+margin-top: -13rem;
+width: 16%;
+height: 150%;
+}
+#new-board-btn {
+margin-left: 14rem;
+margin-top: -21rem;
+}
+h2 {
+font-size: 1.8rem !important;
+width: 99%;
+} 
+.box3 {
+margin-top:23rem;
+font-size: 1.2rem;
+padding-right:1rem;
+padding-left:1rem;
+width:66% !important;
+}
+.text2 {
+margin-left: 17rem;
+margin-right: 3rem;
+}
+.box1 {
+width: 99% !important;
+} 
+.text1 {
+padding-left: 16rem;
+padding-right: 1rem;
+}
+.cat, .cat1, .cat2 {
+margin-left:13rem;
+}
+.bn{
+width: 70%;
+padding-left:17rem;
+padding-right: 2rem;
+font-size: 1.3rem;
+}
+.cot {
+height: 122rem !important;
+}
+.box1 {
+width: 23rem !important;
+}
+.box2,.box6,.box5 {
+font-size: 1.2rem;
+margin-left:auto !important;
+margin-right: auto !important;
+margin-top: 1rem;
+width:40%;
+}
+.cat7 {
+width: 80%;
+padding-left:20rem;
+}
+.ry7{
+width: 70%;
+padding-left:17rem;
+}
+.ry8 {
+width: 49% !important;
+}
+.box7 {
+margin-left:8rem;
+width: 22rem;
+}
+h2 {
+font-size: 1.5rem;
+padding-left: 1rem;
+width: 25rem;
+}
+.fon, .fon1, .fon2, .fon3, .fon4
+{margin-left:30%;
+width: 40%;
+}
+.backgr {
+margin: 2rem 1.4rem;
+width: 90%;
+}
+.mytext{
+font-size: 1.8rem;
+padding-top:0.6rem;
+margin: 2rem -3rem -1rem !important;
+}
+.descr,  .beng, .mcoon {
+width: 22rem;
+margin: 1rem 11.5rem 5rem;
+padding-left: 1rem;
+font-size: 1.25rem;
+}
+.all-cat
+{  background: url(img/per1.png) 13rem 27rem no-repeat;  
+background-size:21rem 15rem;
+}
+.all-cat1
+{  background: url(img/mey100.png) 13rem 28rem no-repeat;  
+background-size: 15rem 14rem;
+background-color:#3e2914;
+}
+.all-cat2
+{  background: url(img/nor.jpg) 14em 28rem no-repeat; 
+background-size: 15rem 13rem;
+}
+.all-cat3
+{  background: url(img/bri.png) 14rem 28rem no-repeat; 
+background-size: 10rem 14rem;
+}  
+.all-cat4
+{background: url(img/cat9.png) 14rem 26rem no-repeat;
+background-size: 18rem 15rem;
+background-color:SteelBlue;
+}		
+}
+@media (min-width: 375px)and (max-width: 412px)
+{
+body{
+background-size: 56%; 
+}
+.newcolor 
+{ width: 13rem;
+height: 13rem;
+margin-left: -76rem;
+margin-top: -3rem;
+font-size: 1.5rem;
+}
+h2{
+font-size: 1.8rem !important;
+width: 99%;
+}
+.text2 {
+margin-left: 17rem;
+}
+.box3 {
+font-size: 1.2rem;
+padding-right:1rem;
+padding-left:1rem;
+width: 128% !important;
+}
+.box1{
+width: 99% !important;;
+} 
+h4{
+font-size: 1.5rem;
+}
+.cot {
+height:115rem !important;;
+}
+.bn {
+width: 95%;
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 1.5rem;
+margin-top:-10rem;
+}
+.cat {
+background: url(img/2hil.png) -1rem 3rem no-repeat;
+background-size: 13rem 18rem;  
+}
+.cat1 {
+background:  url(img/ro3.png) -1rem 3rem no-repeat;
+background-size: 11rem 20rem;
+}
+.cat2 {
+background: url(img/pur1.png) -1rem 3rem no-repeat;
+background-size: 19rem 23rem;
+}
+.ry7{
+width: 90% !important;
+}
+.box2,.box6,.box5 {
+font-size: 1.5rem;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 1rem;
+width: 90%;
+}
+.ry8{
+width: 99% !important;
+}
+.cat7 {
+width: 100%;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.box7 {
+margin-left:1rem;
+width: 32rem;
+}
+.fon, .fon1, .fon2, .fon3, .fon4
+{margin-left:10%;
+width: 80%;
+}
+.backgr {
+margin: 2rem 1.4rem;
+width: 90%;
+}
+.mytext{
+font-size: 1.8rem;
+padding-top:0.6rem;
+margin: 2rem 1rem -1rem !important;
+}
+.descr,  .beng, .mcoon {
+width: 22rem;
+margin: 1rem 11.5rem 5rem;
+padding-left: 1rem;
+font-size: 1.25rem;
+}
+.all-cat
+{   background: url(img/per1.png) 1rem 22rem no-repeat;  
+background-size: 37%;
+}
+.all-cat1
+{  background: url(img/mey100.png) -1rem 26rem no-repeat;  
+background-size: 30%;
+background-color:#3e2914;
+}
+.all-cat2
+{  background: url(img/nor.jpg) -2em 19rem no-repeat; 
+background-size: 28%;
+color:blue !important;
+}
+.all-cat3
+{  background: url(img/bri.png) 0.2rem 24rem no-repeat; 
+background-size: 18%;
+}  
+.all-cat4
+{background: url(img/cat9.png) 4rem 24rem no-repeat;
+background-size: 34%;
+background-color:SteelBlue;
+}	
+}
+@media (min-width: 515px)and (max-width: 600px)
+{
+.newcolor 
+{  width: 15rem;
+height:9rem;
+margin-left: -65rem;
+margin-top: -5rem;
+}
+.rum{
+font-size: 1.5rem;
+padding-top:1rem;
+}
+body{
+background-size: 40% ; 
+}
+.text2 {
+margin-left: 37%;
+margin-top:-19rem;
+}
+.box3 {
+font-size: 1.4rem;
+padding-right:1rem;
+padding-left:1rem;
+width: 115% !important;
+}
+.box6{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.box2,.box5{
+margin-left:1rem;
+margin-right: 1rem;
+}
+.ry8{
+width:99% !important;
+}
+.box7 {
+margin-left: 4rem;
+}
+.fon, .fon1, .fon2, .fon3, .fon4
+{margin-left:1rem;
+}
+.descr,  .beng, .mcoon {
+width: 27rem;
+margin: 1rem 17rem 5rem;
+padding-left: 1rem;
+font-size: 1.4rem;
+}
+.all-cat
+{  background: url(img/per1.png) -0.3rem 7rem no-repeat;  
+background-size: 40rem 30rem;
+}
+.all-cat1
+{  background: url(img/mey100.png) 0.2rem 2rem no-repeat;  
+background-size: 25rem 20rem;
+background-color:#3e2914;
+}
+.all-cat2
+{  background: url(img/nor.jpg) -4em 2rem no-repeat; 
+background-size: 25rem 27rem;
+}
+.all-cat3
+{  background: url(img/bri.png) 0.2rem 2rem no-repeat; 
+background-size: 17rem 25rem;
+}  
+.all-cat4
+{background: url(img/cat9.png) 0.2rem 2rem no-repeat;
+background-size: 20rem 15rem;
+background-color:SteelBlue;
+}	
+}
+@media (min-width: 667px)and (max-width: 684px)
+{
+.mcoon,.descr {
+margin: 3rem 22rem 5rem;
+}
+.all-cat
+{  background: url(img/per1.png) -0.3rem 2rem no-repeat;  
+background-size: 45rem 35rem;
+}
+.all-cat1
+{  background: url(img/mey100.png) 0.2rem 2rem no-repeat;  
+background-size: 30rem 25rem;
+background-color:#3e2914;
+}
+.all-cat2
+{  background: url(img/nor.jpg) -4em 2rem no-repeat;  }
+.all-cat3
+{  background: url(img/bri.png) 0.2rem 2rem no-repeat;  }  
+.all-cat4
+{background: url(img/cat9.png) 0.2rem 2rem no-repeat;
+background-size: 30rem 23rem;
+background-color:SteelBlue;
+}
+.beng{ width: 32rem;
+margin: 3rem 1rem  1rem 25rem;
+}
+}
+.ry8{
+width: 63rem;
+}	
+.newcolor 
+{    margin-left: -76rem;
+margin-top: -3rem;           
+} 
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}
+.box3 {
+margin-left: -1rem;
+width: 32rem;
+margin-right: 1rem;
+padding-bottom: 3rem;
+}
+.box1 {
+width: 30rem;
+}
+.cot {
+height: 110rem;
+}
+}
+@media (min-width: 734px) and (min-width: 734px)
+{
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}
 .newcolor {
 margin-left: -70rem;
 } 
@@ -257,11 +623,18 @@ height: 108rem;
 }
 }
 @media (min-width: 768px) {
-.box3{  margin-right: -3.5rem;
-margin-left: 1rem;
+.box3{
+margin-left: 0rem;
+margin-right: 0rem;
+width: 40rem;	
+}
+h2{
+font-size: 3rem;
+padding-top:1rem;
 }
 .newcolor {
-margin-left: -75rem;
+margin-top:-2rem;
+margin-left: -80rem;
 } 
 .cot {
 height: 106rem;
@@ -278,6 +651,13 @@ color:white;
 }
 @media (min-width: 800px)
 {
+.newcolor {
+margin-top:-1rem;
+}
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}
 .cot {
 height: 107rem;
 } 
@@ -290,6 +670,10 @@ width: 42rem;
 }
 @media (min-width: 1024px)
 {
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}	
 .box3 {    margin-left: 4rem;
 margin-right: 3rem;           
 }  
@@ -297,6 +681,7 @@ margin-right: 3rem;
 height: 105rem;
 }
 .newcolor {
+margin-top:1rem;
 margin-left: -19rem;
 } 
 .mcoon {
@@ -312,6 +697,7 @@ width: 62rem;
 @media (min-width: 1112px)
 { .newcolor {
 margin-left: -13rem;
+margin-top:1rem;
 } 
 .cot {
 height: 105rem;
@@ -325,14 +711,20 @@ width: 105rem;
 .box3{
 width: 70rem;
 }
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}
 }
 @media (min-width: 1200px)
 {
-.all-cat2{
-height: 44rem;	
+h2{
+font-size: 3rem;
+padding-top:1rem;
+padding-left:9rem;
 }
 .newcolor {
-margin-left: -5rem;
+margin-top:1rem ;
 }  
 .bn{
 height: 24rem;
@@ -348,5 +740,4 @@ width: 115rem;
 }
 .box3{
 width: 80rem;
-}
 }
