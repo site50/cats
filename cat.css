@@ -48,11 +48,14 @@ padding-top: 2rem;
 white-space: normal;
 width: 100px;
 }
+.text1 {
+margin-top:-6rem;
+}
 .cat,.cat1,.cat2 {   
 display: inline-block;
 height: 35rem;                   /* size box for hover  */    
 width: 27rem;
-background: url(img/2hil.png) 5rem 3rem no-repeat;
+background: url(img/2hil.png)1rem 3rem no-repeat;
 background-size: 14rem 18rem; 	
 transition: background-size 4s ;
 }
@@ -61,7 +64,7 @@ background-size: 16rem 20rem; /* size images  */
 padding-top:1rem;   
 }
 .cat1{
-background: url(img/ro3.png) 10rem 3rem no-repeat;
+background: url(img/ro3.png) 5rem 2rem no-repeat;
 background-size: 11rem 20rem;
 }
 .cat1:hover {
@@ -69,7 +72,7 @@ background-size: 12rem 22rem;
 padding-top:1rem;              
 }
 .cat2{
-background: url(img/pur1.png) 5rem 3rem no-repeat;
+background: url(img/pur1.png) 2rem 2.8rem no-repeat;
 background-size: 19rem 23rem; 	
 transition: background-size 4s ;
 }
@@ -227,10 +230,14 @@ background-color: #ff6347;
 border-radius: 25%;
 }
 .cot{
-height: 50rem;
+/* height: 50rem; */
 }
 .newcolor {
 margin-left: -15rem;
+}
+h2 {
+padding-top: 7rem !important ;	
+
 }
 @media (min-width: 240px)and (max-width: 374px)
 {
@@ -250,6 +257,7 @@ margin-left: 14rem;
 margin-top: -21rem;
 }
 h2 {
+padding-top: 7rem !important;	
 font-size: 1.8rem !important;
 width: 99%;
 } 
@@ -271,8 +279,42 @@ width: 99% !important;
 padding-left: 16rem;
 padding-right: 1rem;
 }
-.cat, .cat1, .cat2 {
-margin-left:13rem;
+.cat{
+     background: url(img/2hil.png) 2rem 1rem no-repeat ;
+  background-size: 33%;
+   background-color: green;
+   height: 17rem;
+width: 27rem;
+  }
+  .cat1{
+     background: url(img/ro3.png) 2rem 1rem no-repeat;
+background-size: 30%;
+    background-color: green;
+	height: 17rem;
+width: 27rem;
+  }
+    .cat2{
+     background: url(img/pur1.png) 2rem 1rem no-repeat;
+  background-size: 48%;
+      background-color: green;
+	  height: 17rem;
+width: 27rem;
+  }
+  .cat:hover {
+background-size: 34%; 
+}
+  .cat1:hover {
+background-size: 31%; 
+}
+ .cat2:hover {
+background-size: 53%; 
+}
+.bn
+{
+font-size: 1.2rem;
+margin-top: -16rem;
+width: 43rem;
+margin-left: 15rem;
 }
 .bn{
 width: 70%;
@@ -281,7 +323,7 @@ padding-right: 2rem;
 font-size: 1.3rem;
 }
 .cot {
-height: 122rem !important;
+/* height: 122rem !important; */
 }
 .box1 {
 width: 23rem !important;
@@ -355,7 +397,7 @@ background-size: 18rem 15rem;
 background-color:SteelBlue;
 }		
 }
-@media (min-width: 412px)and (max-width: 412px)
+@media (min-width: 375px)and (max-width: 412px)
 {
 body{
 background-size: 56%; 
@@ -387,145 +429,46 @@ h4{
 font-size: 1.5rem;
 }
 .cot {
-height:115rem !important;;
+/* height:115rem !important;; */
 }
-.bn {
-width: 95%;
-padding-left: 1rem;
-padding-right: 1rem;
-font-size: 1.5rem;
-margin-top:-10rem;
+.bn
+{
+font-size: 1.2rem;
+margin-top: -16rem;
+width: 60%;
+margin-left: 13rem;
 }
-.cat {
-background: url(img/2hil.png) -1rem 3rem no-repeat;
-background-size: 13rem 18rem;  
-}
-.cat1 {
-background:  url(img/ro3.png) -1rem 3rem no-repeat;
-background-size: 11rem 20rem;
-}
-.cat2 {
-background: url(img/pur1.png) -1rem 3rem no-repeat;
-background-size: 19rem 23rem;
-}
-.ry7{
-width: 90% !important;
-}
-.box2,.box6,.box5 {
-font-size: 1.5rem;
-margin-left: 1rem;
-margin-right: 1rem;
-margin-top: 1rem;
-width: 90%;
-}
-.ry8{
-width: 99% !important;
-}
-.cat7 {
-width: 100%;
-padding-left: 1rem;
-padding-right: 1rem;
-}
-.box7 {
-margin-left:1rem;
-width: 32rem;
-}
-.fon, .fon1, .fon2, .fon3, .fon4
-{margin-left:10%;
-width: 80%;
-}
-.backgr {
-margin: 2rem 1.4rem;
-width: 90%;
-}
-.mytext{
-font-size: 1.8rem;
-padding-top:0.6rem;
-margin: 2rem 1rem -1rem !important;
-}
-.descr,  .beng, .mcoon {
-width: 22rem;
-margin: 1rem 11.5rem 5rem;
-padding-left: 1rem;
-font-size: 1.25rem;
-}
-.all-cat
-{   background: url(img/per1.png) 1rem 22rem no-repeat;  
-background-size: 37%;
-}
-.all-cat1
-{  background: url(img/mey100.png) -1rem 26rem no-repeat;  
+.cat{
+     background: url(img/2hil.png) 2rem 1rem no-repeat ;
+  background-size: 33%;
+   background-color: green;
+   height: 17rem;
+width: 27rem;
+  }
+  .cat1{
+     background: url(img/ro3.png) 2rem 1rem no-repeat;
 background-size: 30%;
-background-color:#3e2914;
+    background-color: green;
+	height: 17rem;
+width: 27rem;
+  }
+    .cat2{
+     background: url(img/pur1.png) 2rem 1rem no-repeat;
+  background-size: 48%;
+      background-color: green;
+	  height: 17rem;
+width: 27rem;
+  }
+  .cat:hover {
+background-size: 34%; 
 }
-.all-cat2
-{  background: url(img/nor.jpg) -2em 19rem no-repeat; 
-background-size: 28%;
-color:blue !important;
+  .cat1:hover {
+background-size: 31%; 
 }
-.all-cat3
-{  background: url(img/bri.png) 0.2rem 24rem no-repeat; 
-background-size: 18%;
-}  
-.all-cat4
-{background: url(img/cat9.png) 4rem 24rem no-repeat;
-background-size: 34%;
-background-color:SteelBlue;
-}	
+ .cat2:hover {
+background-size: 53%; 
 }
-@media (min-width: 375px)and (max-width: 375px)
-{
-body{
-background-size: 56%; 
-}
-.newcolor 
-{ width: 13rem;
-height: 13rem;
-margin-left: -76rem;
-margin-top: -3rem;
-font-size: 1.5rem;
-}
-h2{
-font-size: 1.8rem !important;
-width: 99%;
-}
-.text2 {
-margin-left: 17rem;
-}
-.box3 {
-font-size: 1.2rem;
-padding-right:1rem;
-padding-left:1rem;
-width: 128% !important;
-}
-.box1{
-width: 99% !important;;
-} 
-h4{
-font-size: 1.5rem;
-}
-.cot {
-height:115rem !important;;
-}
-.bn {
-width: 95%;
-padding-left: 1rem;
-padding-right: 1rem;
-font-size: 1.5rem;
-margin-top:-10rem;
-}
-.cat {
-background: url(img/2hil.png) -1rem 3rem no-repeat;
-background-size: 13rem 18rem;  
-}
-.cat1 {
-background:  url(img/ro3.png) -1rem 3rem no-repeat;
-background-size: 11rem 20rem;
-}
-.cat2 {
-background: url(img/pur1.png) -1rem 3rem no-repeat;
-background-size: 19rem 23rem;
-}
+
 .ry7{
 width: 90% !important;
 }
@@ -593,6 +536,43 @@ background-color:SteelBlue;
 }
 @media (min-width: 515px)and (max-width: 600px)
 {
+	.cat{
+     background: url(img/2hil.png) 2rem 1rem no-repeat ;
+  background-size: 33%;
+   background-color: green;
+   height: 17rem;
+width: 27rem;
+  }
+  .cat1{
+     background: url(img/ro3.png) 2rem 1rem no-repeat;
+background-size: 30%;
+    background-color: green;
+	height: 17rem;
+width: 27rem;
+  }
+    .cat2{
+     background: url(img/pur1.png) 2rem 1rem no-repeat;
+  background-size: 48%;
+      background-color: green;
+	  height: 17rem;
+width: 27rem;
+  }
+  .cat:hover {
+background-size: 34%; 
+}
+  .cat1:hover {
+background-size: 31%; 
+}
+ .cat2:hover {
+background-size: 53%; 
+}
+.bn
+{
+font-size: 1.2rem;
+margin-top: -16rem;
+width: 43rem;
+margin-left: 13rem;
+}
 .newcolor 
 {  width: 15rem;
 height:9rem;
@@ -664,6 +644,43 @@ background-color:SteelBlue;
 }
 @media (min-width: 667px)and (max-width: 684px)
 {
+ .cat{
+     background: url(img/2hil.png) 2rem 1rem no-repeat ;
+  background-size: 33%;
+   background-color: green;
+   height: 17rem;
+width: 27rem;
+  }
+  .cat1{
+     background: url(img/ro3.png) 2rem 1rem no-repeat;
+background-size: 30%;
+    background-color: green;
+	height: 17rem;
+width: 27rem;
+  }
+    .cat2{
+     background: url(img/pur1.png) 2rem 1rem no-repeat;
+  background-size: 48%;
+      background-color: green;
+	  height: 17rem;
+width: 27rem;
+  }
+  .cat:hover {
+background-size: 34%; 
+}
+  .cat1:hover {
+background-size: 31%; 
+}
+ .cat2:hover {
+background-size: 53%; 
+}
+.bn
+{
+font-size: 1.2rem;
+margin-top: -16rem;
+width: 43rem;
+margin-left: 15rem;
+}
 .mcoon,.descr {
 margin: 3rem 22rem 5rem;
 }
@@ -710,7 +727,7 @@ padding-bottom: 3rem;
 width: 30rem;
 }
 .cot {
-height: 110rem;
+/* height: 110rem; */
 }
 }
 @media (min-width: 734px) and (min-width: 734px)
@@ -737,10 +754,14 @@ margin-right: 0rem;
 width: 37rem;	
 }
 .cot {
-height: 108rem;
+/* height: 108rem; */
 }
 }
 @media (min-width: 768px) {
+.bn
+{
+font-size: 1.2rem;	
+}	
 .box3{
 margin-left: 0rem;
 margin-right: 0rem;
@@ -755,7 +776,7 @@ margin-top:-2rem;
 margin-left: -80rem;
 } 
 .cot {
-height: 106rem;
+/* height: 106rem; */
 }
 .box1 {
 width: 39rem;
@@ -777,14 +798,16 @@ font-size: 3rem;
 padding-top:1rem;
 }
 .cot {
-height: 107rem;
+/* height: 107rem; */
 } 
 .mcoon {
 color:white;
 }  
 .box3{
 width: 42rem;
-}	
+}
+.bn
+{font-size: 1.4rem;	}
 }
 @media (min-width: 1024px)
 {
@@ -796,7 +819,7 @@ padding-top:1rem;
 margin-right: 3rem;           
 }  
 .cot {
-height: 105rem;
+/* height: 105rem; */
 }
 .newcolor {
 margin-top:1rem;
@@ -818,7 +841,7 @@ margin-left: -13rem;
 margin-top:1rem;
 } 
 .cot {
-height: 105rem;
+/* height: 105rem; */
 } 
 .mcoon {
 color:white;
@@ -848,7 +871,7 @@ margin-top:1rem ;
 height: 24rem;
 }  
 .cot {
-height: 50rem;
+/* height: 50rem; */
 }
 .mcoon {
 color:white;
@@ -859,3 +882,4 @@ width: 115rem;
 .box3{
 width: 80rem;
 }
+
