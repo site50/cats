@@ -168,21 +168,21 @@ text-align: right;
 font-size: 1.6rem;
 background: url(img/per1.png) 7rem 2rem no-repeat;
 background-size: 45rem 35rem;
-background-color:#3cb371;
+background-color:#3cb371 !important;
 border-radius: 4%;
 border:0.5rem solid Tomato;
 }
 .all-cat1{
 background: url(img/mey100.png) 0rem 5rem no-repeat;
-background-color:#3e2914;
+background-color:#3e2914 !important;
 }
 .all-cat2{
 background: url(img/nor.jpg) 2rem 2rem no-repeat;
-background-color:white;
+background-color:white !important;
 }
 .all-cat3{
 background: url(img/bri.png) 5rem 2rem no-repeat;
-background-color:white;
+background-color:white !important;
 }
 .all-cat4     {
 background: url(img/cat9.png) 1rem 5rem no-repeat;
@@ -539,22 +539,19 @@ background-color:SteelBlue;
 	.cat{
      background: url(img/2hil.png) 2rem 1rem no-repeat ;
   background-size: 33%;
-   background-color: green;
-   height: 17rem;
+    height: 17rem;
 width: 27rem;
   }
   .cat1{
      background: url(img/ro3.png) 2rem 1rem no-repeat;
 background-size: 30%;
-    background-color: green;
-	height: 17rem;
+  	height: 17rem;
 width: 27rem;
   }
     .cat2{
      background: url(img/pur1.png) 2rem 1rem no-repeat;
   background-size: 48%;
-      background-color: green;
-	  height: 17rem;
+    	  height: 17rem;
 width: 27rem;
   }
   .cat:hover {
