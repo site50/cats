@@ -29,24 +29,20 @@ height: 10rem;
 background: pink;
 border-radius: 10%;
 top:-0.5rem;
-right:109rem;
+right:9rem;
 }
 .img{
 width: 19rem; 
 height: 10rem;
 background: url(img/7hot.png) ;
 }
-.newcolor{opacity: 0.5;
-color: white;
-font-size: 1.8rem;
-background-color: green;
-width: 21rem;
-height: 12rem;
-padding-top: 2rem;
-}
 #new-board-btn {
 white-space: normal;
 width: 100px;
+height: 100px;
+padding-top:-7rem;
+color:white;
+opacity: 0.3;
 }
 .text1 {
 margin-top:-6rem;
@@ -61,7 +57,7 @@ transition: background-size 4s ;
 }
 .cat:hover {
 background-size: 16rem 20rem; /* size images  */
-padding-top:1rem;   
+padding-top:1rem; 
 }
 .cat1{
 background: url(img/ro3.png) 5rem 2rem no-repeat;
@@ -119,13 +115,18 @@ left: 1rem ;
 top: 2rem;
 }
 .box1,.box4,.box7{
-width: 41rem;
+width: 30rem;
 height: 9rem;
+box-shadow: 0.8em 0.8em 5px #94724a ;
 background-color: tomato;
-border-radius: 5%;
+border-radius: 17%;
 color:white;
 }
-.box2,.box5,.box6,.box8,.box7{ 
+.box1:hover,.box4:hover,.box7:hover{
+background-color: OrangeRed;
+box-shadow: 0.3em 0.3em 5px #94724a ;
+}
+.box2,.box5,.box6,.box7{ 
 text-align: justify;
 font-size: 2rem;
 margin-left: 8rem;
@@ -134,10 +135,6 @@ margin-top: 5rem;
 }
 .box6{
 margin-top: 0rem;
-}
-.box8{
-margin-top: 9rem;
-margin-left: 15rem;
 }
 .bn1{
 background-color:pink;
@@ -201,8 +198,8 @@ padding-left:1rem;
 .mytext{font-size: 2.5rem;
 margin: 2rem -1rem -1rem;
 }
-.mcoon{
-color:white;
+.mcoon {
+color:white !important;
 }
 .beng{
 width: 26rem;
@@ -213,33 +210,70 @@ margin: 3rem 39rem 5rem;
 position:relative;
 padding-top: 0.1rem;
 margin-top: 3rem;
-background-color: yellow;
+background-color: saddlebrown;
 height: 9rem;
 width: 48rem;
 display: none;
 border-radius: 25%;
 margin-left: 7rem;
-border:0.5rem solid #3cb371;
+border:0.5rem solid green;
+box-shadow: 0.8em 0.8em 5px #94724a ;
+}
+.fon:hover,.fon1:hover,.fon2:hover,.fon3:hover{
+background-color:Chocolate;
 }
 .backgr{
 margin: 2.6rem 10rem;
 top: 2rem;
 height: 4rem;
 width: 30rem;
-background-color: #ff6347;
+background-color: #fd512f;
 border-radius: 25%;
 }
 .cot{
 /* height: 50rem; */
 }
-.newcolor {
-margin-left: -15rem;
-}
 h2 {
 padding-top: 7rem !important ;	
-
 }
-@media (min-width: 240px)and (max-width: 374px)
+.ry8 {
+padding-top: 2rem;
+}
+.box8{
+width: 20rem;
+height: 9rem;
+background-color: LightBlue;
+border-radius: 17%;
+margin-top: -11rem;
+margin-left: -11rem;
+}
+h5{
+font-size: 1.5rem;
+padding-top: 2rem;
+position: absolute;
+padding-left: 2rem;
+padding-right: 2rem;
+color:white;
+}
+.newcolor{
+display:none;
+opacity: 0.5;
+color: white;
+background-color: green;
+width: 21rem;
+height: 12rem;
+border-radius: 17%;
+margin-top: -12rem!important;
+margin-left: 75rem!important;
+}
+h6{
+font-size: 2rem;
+color:white;
+padding-top:1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+@media (min-width: 240px)and (max-width: 320px)
 {
 body{
 background-size: 92%; 
@@ -247,22 +281,16 @@ margin:-17rem ;
 margin-top:28rem;
 }
 .newcolor 
-{  margin-left: -78rem !important;
-margin-top: -13rem;
-width: 16%;
-height: 150%;
+{
+margin-top: -12rem!important;
+width:17rem;
+height: 8rem;
 }
-#new-board-btn {
-margin-left: 14rem;
-margin-top: -21rem;
+h6{
+font-size: 1.4rem;
 }
-h2 {
-padding-top: 7rem !important;	
-font-size: 1.8rem !important;
-width: 99%;
-} 
 .box3 {
-margin-top:23rem;
+margin-top: 14rem;
 font-size: 1.2rem;
 padding-right:1rem;
 padding-left:1rem;
@@ -273,60 +301,45 @@ margin-left: 17rem;
 margin-right: 3rem;
 }
 .box1 {
-width: 99% !important;
-} 
+width: 21rem !important;
+}
 .text1 {
 padding-left: 16rem;
 padding-right: 1rem;
 }
 .cat{
-     background: url(img/2hil.png) 2rem 1rem no-repeat ;
-  background-size: 33%;
-   background-color: green;
-   height: 17rem;
-width: 27rem;
-  }
-  .cat1{
-     background: url(img/ro3.png) 2rem 1rem no-repeat;
-background-size: 30%;
-    background-color: green;
-	height: 17rem;
-width: 27rem;
-  }
-    .cat2{
-     background: url(img/pur1.png) 2rem 1rem no-repeat;
-  background-size: 48%;
-      background-color: green;
-	  height: 17rem;
-width: 27rem;
-  }
-  .cat:hover {
-background-size: 34%; 
+background: url(img/2hil.png) 17rem 1rem no-repeat ;
+background-size: 16%;
+height: 17rem;
+width: 37rem;
 }
-  .cat1:hover {
-background-size: 31%; 
+.cat1{
+background: url(img/ro3.png) 17rem 1rem no-repeat;
+background-size: 16%;
+height: 17rem;
+width: 37rem;
 }
- .cat2:hover {
-background-size: 53%; 
+.cat2{
+background: url(img/pur1.png) 16rem 1rem no-repeat;
+background-size: 23%;
+height: 17rem;
+width:37rem;
+}
+.cat:hover {
+background-size: 17%; 
+}
+.cat1:hover {
+background-size: 17%; 
+}
+.cat2:hover {
+background-size: 22%; 
 }
 .bn
 {
-font-size: 1.2rem;
-margin-top: -16rem;
-width: 43rem;
-margin-left: 15rem;
-}
-.bn{
-width: 70%;
-padding-left:17rem;
-padding-right: 2rem;
-font-size: 1.3rem;
-}
-.cot {
-/* height: 122rem !important; */
-}
-.box1 {
-width: 23rem !important;
+font-size: 1rem;
+margin-top: -17rem;
+width:14rem;
+margin-left: 25rem;
 }
 .box2,.box6,.box5 {
 font-size: 1.2rem;
@@ -345,15 +358,17 @@ padding-left:17rem;
 }
 .ry8 {
 width: 49% !important;
+padding-top: 2rem;
 }
 .box7 {
 margin-left:8rem;
 width: 22rem;
 }
 h2 {
-font-size: 1.5rem;
+font-size: 1.8rem !important;
+width: 20rem;
+padding-top: 1rem !important;
 padding-left: 1rem;
-width: 25rem;
 }
 .fon, .fon1, .fon2, .fon3, .fon4
 {margin-left:30%;
@@ -384,8 +399,8 @@ background-size: 15rem 14rem;
 background-color:#3e2914;
 }
 .all-cat2
-{  background: url(img/nor.jpg) 14em 28rem no-repeat; 
-background-size: 15rem 13rem;
+{  background: url(img/nor.jpg) 14em 25rem no-repeat; 
+background-size: 20%;
 }
 .all-cat3
 {  background: url(img/bri.png) 14rem 28rem no-repeat; 
@@ -395,9 +410,12 @@ background-size: 10rem 14rem;
 {background: url(img/cat9.png) 14rem 26rem no-repeat;
 background-size: 18rem 15rem;
 background-color:SteelBlue;
+}
+.box8
+{display: none;
 }		
 }
-@media (min-width: 375px)and (max-width: 412px)
+@media (min-width: 375px)and (max-width: 414px)
 {
 body{
 background-size: 56%; 
@@ -405,15 +423,20 @@ background-size: 56%;
 .newcolor 
 { width: 13rem;
 height: 13rem;
-margin-left: -76rem;
+margin-left: -65rem!important;
 margin-top: -3rem;
 font-size: 1.5rem;
+}
+h6{
+font-size: 1.6rem;
 }
 h2{
 font-size: 1.8rem !important;
 width: 99%;
+padding-top: 1rem !important;
 }
 .text2 {
+margin-top: -19rem;
 margin-left: 17rem;
 }
 .box3 {
@@ -428,9 +451,6 @@ width: 99% !important;;
 h4{
 font-size: 1.5rem;
 }
-.cot {
-/* height:115rem !important;; */
-}
 .bn
 {
 font-size: 1.2rem;
@@ -439,36 +459,32 @@ width: 60%;
 margin-left: 13rem;
 }
 .cat{
-     background: url(img/2hil.png) 2rem 1rem no-repeat ;
-  background-size: 33%;
-   background-color: green;
-   height: 17rem;
+background: url(img/2hil.png) 2rem 1rem no-repeat ;
+background-size: 33%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat1{
-     background: url(img/ro3.png) 2rem 1rem no-repeat;
+}
+.cat1{
+background: url(img/ro3.png) 2rem 1rem no-repeat;
 background-size: 30%;
-    background-color: green;
-	height: 17rem;
+height: 17rem;
 width: 27rem;
-  }
-    .cat2{
-     background: url(img/pur1.png) 2rem 1rem no-repeat;
-  background-size: 48%;
-      background-color: green;
-	  height: 17rem;
+}
+.cat2{
+background: url(img/pur1.png) -1rem 1rem no-repeat;
+background-size: 48%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat:hover {
+}
+.cat:hover {
 background-size: 34%; 
 }
-  .cat1:hover {
+.cat1:hover {
 background-size: 31%; 
 }
- .cat2:hover {
+.cat2:hover {
 background-size: 53%; 
 }
-
 .ry7{
 width: 90% !important;
 }
@@ -532,35 +548,47 @@ background-size: 18%;
 {background: url(img/cat9.png) 4rem 24rem no-repeat;
 background-size: 34%;
 background-color:SteelBlue;
+}
+.mcoon {
+color:white !important;
 }	
+.box8
+{width: 15rem;
+height: 8rem;
+opacity: 0.9;
+margin-left: -16rem!important;
+}
+h5{font-size:1.1rem;
+color:white!important;
+}
 }
 @media (min-width: 515px)and (max-width: 600px)
 {
-	.cat{
-     background: url(img/2hil.png) 2rem 1rem no-repeat ;
-  background-size: 33%;
-    height: 17rem;
+.cat{
+background: url(img/2hil.png) 2rem 1rem no-repeat ;
+background-size: 33%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat1{
-     background: url(img/ro3.png) 2rem 1rem no-repeat;
+}
+.cat1{
+background: url(img/ro3.png) 2rem 1rem no-repeat;
 background-size: 30%;
-  	height: 17rem;
+height: 17rem;
 width: 27rem;
-  }
-    .cat2{
-     background: url(img/pur1.png) 2rem 1rem no-repeat;
-  background-size: 48%;
-    	  height: 17rem;
+}
+.cat2{
+background: url(img/pur1.png) -1rem 1rem no-repeat;
+background-size: 48%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat:hover {
+}
+.cat:hover {
 background-size: 34%; 
 }
-  .cat1:hover {
+.cat1:hover {
 background-size: 31%; 
 }
- .cat2:hover {
+.cat2:hover {
 background-size: 53%; 
 }
 .bn
@@ -616,12 +644,15 @@ margin: 1rem 17rem 5rem;
 padding-left: 1rem;
 font-size: 1.4rem;
 }
+.mcoon {
+color:white !important;
+}
 .all-cat
-{  background: url(img/per1.png) -0.3rem 7rem no-repeat;  
+{  background: url(img/per1.png) -0.3rem 11rem no-repeat;  
 background-size: 40rem 30rem;
 }
 .all-cat1
-{  background: url(img/mey100.png) 0.2rem 2rem no-repeat;  
+{  background: url(img/mey100.png) 0.2rem 23rem no-repeat;  
 background-size: 25rem 20rem;
 background-color:#3e2914;
 }
@@ -630,45 +661,98 @@ background-color:#3e2914;
 background-size: 25rem 27rem;
 }
 .all-cat3
-{  background: url(img/bri.png) 0.2rem 2rem no-repeat; 
+{  background: url(img/bri.png) 0.2rem 15rem no-repeat; 
 background-size: 17rem 25rem;
 }  
 .all-cat4
-{background: url(img/cat9.png) 0.2rem 2rem no-repeat;
+{background: url(img/cat9.png) 0.2rem 23rem no-repeat;
 background-size: 20rem 15rem;
 background-color:SteelBlue;
 }	
 }
-@media (min-width: 667px)and (max-width: 684px)
+@media (min-width: 734px)and (max-width: 768px)
 {
- .cat{
-     background: url(img/2hil.png) 2rem 1rem no-repeat ;
-  background-size: 33%;
-   background-color: green;
-   height: 17rem;
+.newcolor {
+margin-top:-1rem;
+}
+h2{
+font-size: 3rem;
+padding-top:1rem;
+}
+.mcoon {
+color:white!important;
+}  
+.box3{
+width: 38rem!important;
+font-size: 1.7rem;
+}
+.cat{
+background: url(img/2hil.png) 2rem 1rem no-repeat ;
+background-size: 33%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat1{
-     background: url(img/ro3.png) 2rem 1rem no-repeat;
+}
+.cat1{
+background: url(img/ro3.png) 2rem 1rem no-repeat;
 background-size: 30%;
-    background-color: green;
-	height: 17rem;
+height: 17rem;
 width: 27rem;
-  }
-    .cat2{
-     background: url(img/pur1.png) 2rem 1rem no-repeat;
-  background-size: 48%;
-      background-color: green;
-	  height: 17rem;
+}
+.cat2{
+background: url(img/pur1.png) 2rem 1rem no-repeat;
+background-size: 48%;
+height: 17rem;
 width: 27rem;
-  }
-  .cat:hover {
+}
+.cat:hover {
 background-size: 34%; 
 }
-  .cat1:hover {
+.cat1:hover {
 background-size: 31%; 
 }
- .cat2:hover {
+.cat2:hover {
+background-size: 53%; 
+}
+.bn
+{
+font-size: 1.2rem;
+margin-top: -16rem;
+width: 43rem;
+margin-left: 15rem;
+}
+.box8
+{
+opacity: 0.9;
+margin-left: -19rem;
+} 
+}
+@media (min-width: 667px)and (max-width: 684px)
+{
+.cat{
+background: url(img/2hil.png) 2rem 1rem no-repeat ;
+background-size: 33%;
+height: 17rem;
+width: 27rem;
+}
+.cat1{
+background: url(img/ro3.png) 2rem 1rem no-repeat;
+background-size: 30%;
+height: 17rem;
+width: 27rem;
+}
+.cat2{
+background: url(img/pur1.png) 2rem 1rem no-repeat;
+background-size: 48%;
+height: 17rem;
+width: 27rem;
+}
+.cat:hover {
+background-size: 34%; 
+}
+.cat1:hover {
+background-size: 31%; 
+}
+.cat2:hover {
 background-size: 53%; 
 }
 .bn
@@ -707,8 +791,7 @@ margin: 3rem 1rem  1rem 25rem;
 width: 63rem;
 }	
 .newcolor 
-{    margin-left: -76rem;
-margin-top: -3rem;           
+{    margin-left:16rem!important;          
 } 
 h2{
 font-size: 3rem;
@@ -723,104 +806,10 @@ padding-bottom: 3rem;
 .box1 {
 width: 30rem;
 }
-.cot {
-/* height: 110rem; */
-}
-}
-@media (min-width: 734px) and (min-width: 736px)
+.box8
 {
-h2{
-font-size: 3rem;
-padding-top:1rem;
-}
-.newcolor {
-margin-left: -70rem;
-} 
-.mcoon,.descr {
-margin: 3rem 30rem 5rem;
-}
-.mcoon {
-color:white;
-}
-.ry8{
-width: 68rem;
-}
-.box3{
-margin-left: -1rem;
-width: 37rem;
-margin-right: 1rem;
-padding-bottom: 3rem;	
-}
-.text2 {
-    font-size: 1.7rem;
-   }
- .cat{
-     background: url(img/2hil.png) 2rem 1rem no-repeat ;
-  background-size: 33%;
-   background-color: green;
-   height: 17rem;
-width: 27rem;
-  }
-  .cat1{
-     background: url(img/ro3.png) 2rem 1rem no-repeat;
-background-size: 30%;
-    background-color: green;
-	height: 17rem;
-width: 27rem;
-  }
-    .cat2{
-     background: url(img/pur1.png) 2rem 1rem no-repeat;
-  background-size: 48%;
-      background-color: green;
-	  height: 17rem;
-width: 27rem;
-  }
-  .cat:hover {
-background-size: 34%; 
-}
-  .cat1:hover {
-background-size: 31%; 
-}
- .cat2:hover {
-background-size: 53%; 
-}
-.bn
-{
-font-size: 1.2rem;
-margin-top: -16rem;
-width: 43rem;
-margin-left: 15rem;
-}
-}
-@media (min-width: 768px) {
-.bn
-{
-font-size: 1.2rem;	
-}	
-.box3{
-margin-left: 0rem;
-margin-right: 0rem;
-width: 40rem;	
-}
-h2{
-font-size: 3rem;
-padding-top:1rem;
-}
-.newcolor {
-margin-top:-2rem;
-margin-left: -80rem;
-} 
-.cot {
-/* height: 106rem; */
-}
-.box1 {
-width: 39rem;
-}
-.descr {
-margin: 3rem 31rem 5rem;
-}
-.mcoon {
-color:white;
+opacity: 0.9;
+margin-left: -21rem;
 }
 }
 @media (min-width: 800px)
@@ -832,12 +821,6 @@ h2{
 font-size: 3rem;
 padding-top:1rem;
 }
-.cot {
-/* height: 107rem; */
-} 
-.mcoon {
-color:white;
-}  
 .box3{
 width: 42rem;
 }
@@ -847,8 +830,8 @@ width: 42rem;
 @media (min-width: 1024px)
 {
 h2{
-font-size: 3rem;
-padding-top:1rem;
+font-size: 2.2rem;
+padding-left: 78rem;
 }	
 .box3 {    margin-left: 4rem;
 margin-right: 3rem; 
@@ -859,13 +842,10 @@ width: 60rem;
 }
 .newcolor {
 margin-top:1rem;
-margin-left: -19rem;
+margin-left: -10rem;
 } 
-.mcoon {
-color:white;
-}
 .ry8{
-width: 92rem;
+width: 65rem;
 }
 .box3{
 width: 62rem;
@@ -873,24 +853,18 @@ width: 62rem;
 }
 @media (min-width: 1112px)
 { .newcolor {
-margin-left: -13rem;
+margin-left: -8rem;
 margin-top:1rem;
 } 
-.cot {
-/* height: 105rem; */
-} 
-.mcoon {
-color:white;
-}
 .ry8{
-width: 105rem;
+width: 65rem;
 }
 .box3{
 width: 70rem;
 }
 h2{
-font-size: 3rem;
-padding-top:1rem;
+font-size: 2.6rem;
+padding-left:78rem;
 }
 }
 @media (min-width: 1200px)
@@ -900,22 +874,32 @@ font-size: 3rem;
 padding-top:1rem;
 padding-left:9rem;
 }
-.newcolor {
-margin-top:1rem ;
-}  
+.newcolor{
+display:none;
+opacity: 0.5;
+color: white;
+background-color: green;
+width: 21rem;
+height: 12rem;
+border-radius: 17%;
+margin-top: -12rem!important;
+margin-left: 75rem!important;
+}
+h6{
+white-space: normal;
+font-size: 2rem;
+color:white;
+padding-top:1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+} 
 .bn{
 height: 24rem;
 }  
-.cot {
-/* height: 50rem; */
-}
-.mcoon {
-color:white;
-} 
 .ry8{
-width: 115rem;
+width:65rem;
 }
 .box3{
-width: 95rem;
+width: 78rem;
 }
 }
