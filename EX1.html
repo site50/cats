@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>First Page</title>
+<meta charset=utf-8 >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+body {
+font-family: Georgia, Times New Roman, serif;
+background-color: ;
+text-align: center;
+height:100%;
+}
+#enlg{
+margin-top: 2rem;
+background-color:aqua;
+}	
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9 {
+vertical-align: middle;
+width: 23rem;
+height: 7rem;
+padding: 8px;
+border: 1px solid #aaaaaa;
+background-color: pink;
+border-radius: 23px;
+font-size: 2rem;
+color: white;	
+}
+#div2 {
+background-color:#dc6b12; 
+margin-left: 55rem;
+}
+#div3 {
+background-color:#ffab00; 
+margin-left:-30rem;
+}
+#div4 {
+background-color:#006bff; 
+margin-left: -50rem;
+margin-top: 3rem;
+}
+#div5 {
+background-color:#5bff00; 
+margin-left:56rem;
+margin-top: -13rem;
+}
+#div6 {
+background-color:#9800fff0; 
+margin-left:10rem;
+}
+#div7 {
+background-color:#ff6500; 
+margin-left:55rem;
+}
+#div8 {
+background-color:#1faf19; 
+margin-left:-27rem;
+margin-top: -3rem;
+}
+#div9 {
+background-color:#008eff; 
+margin-left: 38rem;
+margin-top: -3rem;
+}
+#drag1,#drag2,#drag3, #drag4,#drag5,#drag6, #drag7,#drag8,#drag9{
+background-color: #69ea12fc;
+width: 14rem;
+display: inline-block;
+font-size: 1.4vw;
+border-radius: 23px;
+} 
+#russui{
+background-color:pink;
+margin-top: 3rem;
+}
+#drag2{
+background-color:#2278ff;
+}
+#drag4{
+background-color:#d93423;
+}
+#drag3{
+background-color:#8c89e6;
+}
+#drag5{
+background-color:#ea12ac;
+color:white ;
+}
+#drag8{
+background-color:#ea4912fc;
+color:white ;
+}
+#drag9{
+background-color:#b9ea12fc;
+color:white ;
+}
+.foo{
+background-color:orange;
+}
+#demo,#demo1{
+display: none;
+background-color: #fb0101d4;
+width: 25rem;
+margin-left: 5rem;
+margin-top: -21rem;
+height: 7rem;
+padding-top: 1rem;
+color: white;
+border: 2px solid #4CAF50;
+border-radius: 23px;
+position: fixed;
+}
+#demo1{
+display: block;
+margin-top: -21rem;
+width: 35rem;
+height: 13.5rem;
+text-align:justify;
+padding-left:1rem;
+padding-right:1rem;
+font-size: 1.3vw;
+background-color:#2196f3;
+border: 8px solid #ceef00;
+}
+h5{
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 1.7rem;
+}	
+#count{
+text-transform: uppercase;
+font-size: 1.2vw;
+background-color:#14de0d;
+display: inline-block;
+vertical-align: middle;
+padding-top: 2rem;
+padding-bottom: 2rem;
+margin-top: 2rem;
+border: 8px solid #ceef00;
+border-radius: 23px;
+width: 33rem;
+}
+#count1{
+display: flex;
+justify-content: center; /*Центрирование по горизонтали*/
+align-items: center;     /*Центрирование по вертикали */
+height:7rem;
+}
+	@media (min-width: 768px)and (max-width: 1024px)  { 
+#demo1{
+margin-left: 0.5rem;
+font-size: 2.3vw;
+}
+#div1 {
+    margin-right: -25rem;
+}
+#div2{
+margin-left: 45rem;
+}
+#div5{
+    margin-left: 36rem;
+    margin-top: -16rem;
+}
+#div7{
+margin-left: 50rem;
+}
+}
+	@media (min-width: 240px)and (max-width: 320px)  { 
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9{
+width: 8rem;
+font-size: 5vw;
+}
+#demo{
+background-color: #fb0101b8;
+width: 12rem;
+margin-left: -1rem;
+margin-top: -51rem;
+}
+#demo1{
+margin-top: -54rem;
+width: 11rem;
+height: 14rem;
+margin-left: -1rem;
+font-size: 4vw;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9 {
+width: 41vw;
+font-size: 7vw;
+}
+#div1 {
+margin-right: -12rem;
+
+}
+#div2{
+margin-left: 11rem;
+}
+#div3{
+margin-left: -12rem;
+}
+#div4{
+margin-left: 12rem;
+margin-top: -4rem;
+}
+#div5{
+   margin-left: -13rem;
+    margin-top: -1rem;
+}
+#div6{
+margin-left: -7rem;
+}
+#div7{
+margin-left: 12rem;
+}
+
+#div8{
+margin-left: -12rem;
+}
+#div9{
+margin-left: 8rem;
+}
+#count{
+width: 22rem;
+}
+}
+
+	@media (min-width: 320px)and (max-width: 568px)  { 
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9{
+width: 12rem;
+font-size: 1.6rem;
+}
+#demo{
+background-color: #fb0101b8;
+width: 15rem;
+margin-left: -0.5rem;
+margin-top: -49rem;
+}
+#demo1{
+margin-top: -54rem;
+width: 17rem;
+height: 15rem;
+margin-left: -1rem;
+font-size: 1.4rem;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9 {
+width: 41vw;
+}
+#div1 {
+margin-right: -16rem;
+
+}
+#div2{
+margin-left: 16rem;
+}
+#div3{
+margin-left: -17rem;
+}
+#div4{
+margin-left: 12rem;
+margin-top: -4rem;
+}
+#div5{
+   margin-left: -13rem;
+    margin-top: -1rem;
+}
+#div6{
+margin-left: -7rem;
+}
+#div7{
+margin-left: 12rem;
+}
+
+#div8{
+margin-left: -18rem;
+}
+#div9{
+margin-left: 8rem;
+}
+}
+	@media (min-width: 411px)and (max-width: 736px)  { 
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9
+{
+font-size: 1.6rem;
+}
+#demo1{
+font-size: 1.4rem;
+}
+}
+
+	@media (min-width: 600px)and (max-width: 960px)  { 
+#demo1 {
+   font-size: 2.7vw;
+	margin-left: 1rem;
+}
+#div1{
+margin-left: 35rem;
+}
+#div2{
+margin-left: 35rem;
+}
+#div4{
+margin-left: -34rem;
+}
+#div5{
+margin-left: 32rem;
+}
+#div7{
+margin-left: 25rem;
+}
+}
+	@media (min-width:800px)and (max-width: 1280px)  { 
+#demo1 {
+ font-size: 1.7rem;
+}
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9
+{font-size: 1.8rem;}
+}
+	@media (min-width:900px)and (max-width: 1440px)  { 
+#demo1 {
+ font-size: 1.7rem;
+}
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9
+{font-size: 2rem;}
+}
+	@media (min-width:1290px)and (max-width: 1366px)  { 
+#demo1 {
+font-size: 1.3vw;
+}
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class=" col-lg-1" style='background-color:#ffd70042'>ss</div>
+<div class=" col-lg-10" style='background-color:#38ff0042'>
+<CENTER>
+<div id='enlg'>
+<div id="div1" class='animal1' ondrop="box(event)" ondragover="allowDrop(event)" >1CAT</div>
+<div id="div2" class='animal2' ondrop="box(event)" ondragover="allowDrop(event)" >1DOG</div>
+<div id="div3" class='animal3' ondrop="box(event)" ondragover="allowDrop(event)" >1BERD</div>
+</div>
+<div ><div id='demo'>gg</div><div id='demo1'>Перенесите слово на русском языке в область слова на английском языке, 
+равное по смыслу</div></div>
+</CENTER>
+</div>
+<div class=" col-lg-1" style='background-color:#0028ff42'>jjj
+</div>
+</div></div>
+<div class="row">
+<div class=" col-lg-1" style='background-color:green'>hi</div>
+<div class=" col-lg-10" style='background-color:#0028ff42'>
+<div id='russui'>
+<div id="drag1"  class='box1' draggable="true" ondragstart="drag(event)" >1КОШКА</div>
+<div id="drag2"  class='box2' draggable="true" ondragstart="drag(event)" >1СОБАКА</div>
+<div id="drag3"  class='box3' draggable="true" ondragstart="drag(event)" >1ПТИЦА</div>
+</div>
+<CENTER>
+<div id='count' style='display:none;'><div id='count1'></div></div>
+</CENTER>
+</div>
+<div class=" col-lg-1" style='background-color:green'>hi</div>
+</div>
+<script>
+var c = document.getElementById("russui").children;           <!--russia, arr1-->
+var d = document.getElementById("enlg").children;  
+console.log(d+', d');           <!--english, arr2-->
+var drags=['drag1','drag2','drag3'];
+var arr1=['работник','заявление', 'переговоры'];
+var arr2=['employee','application', 'negotiate'];
+var j, i;
+count=0;
+for(j=0; j < c.length; j++){
+c[j].innerHTML = arr1[j];
+}
+for (i = 0; i < d.length; i++) {
+d[i].innerHTML = arr2[i];
+}
+var arr3=[];
+for (t=0; t<3; t++ )
+{var x=String(t+1)
+arr3[t]=x;
+}
+let demo1 = document.querySelector('#demo1');
+function move(event) {
+document.getElementById("demo1").innerHTML='Place the word on Russian in area of word English, similaer on sinse.';
+event.target.style.background = "#a52b1e";
+event.target.style.color = "#00ffd0";
+event.target.style.fontSize='2.3rem';
+}
+demo1.addEventListener("touchstart", move); 
+demo1.addEventListener("mousemove", move); 
+function leave(event) {
+event.target.style.color = "white";
+document.getElementById("demo1").innerHTML='Перенесите слово на русском языке в область слова на английском языке, равное по смыслу';
+event.target.style.background = "#2196f3";
+event.target.style.color = "white";
+event.target.style.fontSize='1.7rem';
+}
+demo1.addEventListener("mouseleave", leave); 
+demo1.addEventListener("touchstart", leave); 
+
+function allowDrop(ev) {
+ev.preventDefault();
+}
+
+function box(ev) {        <!--english, arr2-->
+ev.preventDefault();
+var arr=['div1', 'div2', 'div3', 'div4', 'div5', 'div6', 'div7', 'div8', 'div9'];
+var arr5=[];
+for (t=0; t<3; t++ )
+{var x=String(t+1)
+arr5[t]=ev.dataTransfer.getData(x);
+{for (var y=0, j=0, s=0;
+y<d.length,  j<arr.length, s<arr5.length ;
+y++,j++, s++ )
+{
+{
+if ((arr5[s] && arr5[s] == ev.dataTransfer.getData(x))&& (event.target.id === d[y].id))
+{
+console.log('1hello');
+ev.target.appendChild(document.getElementById(arr5[s]));
+setTimeout(function() {
+document.getElementById("demo").innerHTML='<h5>ВЕРНЫЙ ОТВЕТ</h5>';
+document.getElementById("demo").style.display='block';
+document.getElementById("demo1").style.display='none';
+
+{count++;
+if(count==arr1.length)
+{
+$('#demo').css({'background-color':'pink', 'height': '10rem', 'background-color': 'white'});
+		document.getElementById("demo").innerHTML='<h5><a href="text.html">Упражнение выполнено.</br>Переходи на другую страницу</a></h5>';
+	document.getElementById("demo1").style.display='none';
+	}}}, 500);
+
+<!-- break; -->
+}}}
+}}}
+function drag(ev) {
+for (var k=0, r=0, i=0; k<c.length, r<drags.length, i<arr3.length; k++, r++, i++)
+{if(event.target.id == drags[r] )
+{
+console.log('2hello');
+
+		ev.dataTransfer.setData(arr3[i], ev.target.id);  <!-- DONT WORK IN MOBILE -->
+
+}}
+{
+if(event.target.id !== drags[r] ){
+setTimeout(function() {
+document.getElementById("demo").style.display='none';
+document.getElementById("demo1").style.display='none';
+}, 500);
+}
+<!-- {count++; -->
+<!-- if(count==arr1.length) -->
+<!-- {document.getElementById("count").style.display='block'; -->
+<!-- document.getElementById("count1").innerHTML='<h5><a href="text.html">Упражнение выполнено.</br>Переходи на другую страницу</a></h5>'; -->
+	<!-- document.getElementById("demo").style.color='pink'; -->
+	<!-- document.getElementById("demo").innerHTML='<h5>hello</h5>'; -->
+	<!-- document.getElementById("demo1").style.display='none'; -->
+	<!-- }} -->
+}}
+
+</script>
+</body>
+</html>
