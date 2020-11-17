@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FRASE VERBS</title>
+<meta charset=utf-8 >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src='new.words.js'></script>
+<style>	
+body {
+
+background: url(beach.jpg) ;
+margin: 0; /* Убираем отступы в браузере */
+text-align: center;
+font-family: Georgia !important;
+min-height:100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+-moz-background-size: cover;
+}
+
+#error{
+color: white;
+font-size: 2.4vw;
+padding-top: 11rem;
+}
+#enter{
+text-align:center;
+height: 5vw;
+width: 23vw;
+border-radius: 23px;
+font-size: 2vw;
+font-family: Georgia !important;
+margin-top: 1.6rem;
+background-color:#f1874edb;
+    border: 5px solid #f94a27;
+	color:white;
+}
+#next,#prev,#check,#begin{
+background-color:tomato;
+color:white;
+font-size:2vw;
+margin-right: auto;
+margin-left: auto;
+border: 2px solid #4CAF50;
+}
+#prev{
+background-color:SkyBlue;
+margin-top: 1.3rem;
+}
+#begin{
+height: 9rem;
+width: 35rem;
+border-radius: 23px;
+}
+#next,#check{
+font-family: Georgia !important;
+}
+#check{
+margin-top: 2vw;
+}
+#elem{
+background-color: LimeGreen;
+height: 5vw;
+border-radius: 23px;
+border: 5px solid Tomato;
+margin-top: 1rem;
+margin-bottom: 1rem;
+width: 23vw;
+font-size: 2.3vw;
+text-align: center;
+display: flex;
+}
+#elem1{
+ margin: auto;
+}
+#demo{
+background-color: LimeGreen;
+margin-top: 1rem;
+margin-bottom: 1rem;
+width: 47vw;
+font-size: 2vw;
+margin-top: 3vw;
+line-height: 1;
+}
+h1{
+font-size: 2.5vw;
+}
+#slider{
+}
+#img{
+width: 18rem;
+margin-top: 24rem;
+transition-duration: 15s;
+}
+#box3{
+height: 5rem;
+}
+#offer{
+background-color: #ff00118c;
+height: 14rem;
+width: 22rem;
+font-size: 1.5rem;
+border-radius: 23px;
+color: white;
+}
+#yes{
+background-color:#cbe61d;
+width: 9rem;
+padding-top: 0.1rem;
+padding-bottom: 0.3rem;
+padding-bottom: 1ren;
+border-radius: 23px;
+margin-top: 2rem;
+}
+#noy{
+background-color: #800003;
+width: 9rem;
+padding-top: 0.1rem;
+padding-bottom: 0.3rem;
+border-radius: 23px;
+margin-top: 1rem;
+}
+h5{
+font-size: 2rem;
+}
+@media (min-width: 240px ) and (max-width: 320px) {
+h1 {
+font-size: 3rem;
+}
+#begin {
+font-size: 2rem;
+width: 20rem;
+height: 11rem;
+}
+#demo {
+width: 20rem;
+font-size: 1.6rem;
+}
+#prev,#next{
+font-size: 2rem;
+}
+#elem {
+height: 16vw;
+width: 20rem;
+font-size: 1.5rem;
+}
+#enter {
+height: 13vw;
+width: 69vw;
+font-size: 1.6rem;
+
+}
+h3{
+font-size: 2rem;
+}
+#prev {
+margin-top: 1rem;
+}
+#check{
+font-size: 2rem;
+}
+#error{
+font-size: 3rem;
+padding-top: 1rem;
+}
+#img{
+margin-top: 1rem;
+}
+}	
+@media (min-width: 321px ) and (max-width: 533px) {
+h1 {
+font-size: 5vw;
+}
+#demo {
+width: 28rem;
+font-size: 2rem;
+}
+#prev,#next{
+font-size: 2rem;
+}
+#elem{
+width: 17rem;
+font-size: 2rem;
+}
+#check {
+margin-top: 2rem;
+font-size: 2rem;
+width: 26rem;
+height: 6rem;
+}
+#enter{
+font-size: 2rem;
+}
+#error{
+padding-top:1rem;
+font-size: 3rem;
+}
+#img{
+margin-top: 1rem;
+}
+}
+@media (min-width: 330px ) and (max-width: 740px) {
+#begin
+{font-size: 3rem;
+width: 33rem;}
+#demo{
+font-size: 3rem;
+width: 33rem;
+}
+#elem{
+height: 7rem;
+font-size: 3rem;
+width: 33rem;
+padding-top: 1rem;
+}
+#prev{
+font-size: 2rem;
+margin-top: 1.3rem;
+}
+#next{
+height: 4rem;
+width: 7.2rem;
+font-size: 2rem;
+}
+h1{
+font-size: 3rem;
+}
+h3{
+font-size: 5vw;
+}
+#check {
+margin-top: 5vw;
+font-size: 2rem;
+height: 4rem;
+}
+#enter{
+height: 11vw;
+width: 75vw;
+font-size: 2rem;
+}
+#error {
+font-size: 3rem;
+padding-top: 1rem;
+}
+#img {
+margin-top:0.1rem;
+}
+}
+@media (min-width: 750px ) and (max-width: 1280px) {
+h1{
+font-size: 5rem;
+}
+h5{
+font-size: 3rem;
+}
+#offer{
+    height: 19rem;
+    width: 26rem;
+}
+#next, #prev, #check, #begin {
+font-size: 4vw;
+}
+#begin{
+height: 18rem;
+width: 48rem;
+font-size: 5rem;
+}
+#demo{
+font-size:5rem;
+width: 53rem;
+}
+#next{
+height: 8vw;
+margin-top: 2rem;
+}
+#elem{
+font-size: 6rem;
+width: 55rem !important;
+height: 13rem;
+text-align: center;
+	 display: flex;
+	  margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#elem1{
+ margin: auto;
+}
+
+#prev{
+margin-top: 7rem;
+}
+#enter{
+width: 39vw;
+font-size: 4vw;
+height: 6rem;
+}
+#check{
+height: 7rem;
+}
+#error{
+font-size: 4vw;
+padding-top: 1rem;
+}
+#img{
+margin-top: 1rem;
+}
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row"> 
+<div class=" col-md-3" style='background-color:green;'>
+1
+</div>
+<div class=" col-md-6" style='background-color:#00f8ff7a;'>
+<div id='frase'><center><h1>АНГЛИЙСКИЕ СЛОВА</h1></center></div>
+<CENTER>
+<button id="begin"  >Начать изучение!</button>
+<div id="slider1" >
+<div id='box3'>
+<div id='demo' style="display:none">dd</div>
+</div>
+<div class="input-group" >
+<CENTER>
+<button id="prev" class="btn btn-primary" style="display:none" >prev</button>
+	<div id='elem'  style="display:none"><div id='elem1' ></div></div>
+<button id="next" class="btn btn-primary" style="display:none" >next</button>
+</CENTER>
+</div>
+</div> 
+</CENTER>
+<center><div id='offer' style="display:none">
+<h5>перейти к упражнениям?
+<div id='yes'>
+<a href="text.html" >
+да
+</a>
+</div>
+<div id='noy' >нет</div>
+</h5>
+</div></center>
+<div id='box5'>
+<h3 style="display:none;">Введите слово на английском языке</br>
+<input    id='enter' value=''/></br>
+<button id="check" >проверь результат!</button>
+</div >
+<div id='input'></div>
+</center>
+</div>
+<div class=" col-md-3" >
+<div id='error'></div><img id="img" src="dol8.png" style="display:none ;">
+</div>
+</div>
+</div>
+<script>
+count=0;
+$(document).ready(function(){
+$("#begin").click(function(){
+$("#prev,h3,#elem,#demo,#next,#demo,#img").show(1000);
+$('#begin').hide();
+$("#next").css({'background-color':'SkyBlue'});
+});
+
+
+$('h1').hover(function(){
+    $(this).text("ENGLISH WORDS").css({'color':'#a9ff00'});
+}, function() {
+    $(this).text("АНГЛИЙСКИЕ СЛОВА").css({'color':'black'});
+});
+initSlider(arr1, '#slider1');
+function initSlider(texts, selector) {
+var parent = document.querySelector(selector);
+var elem = parent.querySelector('#elem1');
+var prev = parent.querySelector('#prev');
+var next = parent.querySelector('#next');
+var i = 0;
+
+begin.addEventListener('click', function () {
+i++;
+{if (i == texts.length)
+{i = 0; }
+elem.innerHTML = texts[i]; document.getElementById("demo").innerHTML =arr2[i];
+}
+next.addEventListener('click', function () {
+i++;
+{if (i == texts.length)
+{i = 0; }
+elem.innerHTML = texts[i]; 
+}
+{if (elem.innerHTML == texts[i])
+{
+document.getElementById("demo").innerHTML =arr2[i];
+document.getElementById("next").innerHTML = 'next';
+document.getElementById("input").style.display='none';
+document.getElementById("error").style.display='none';
+enter.value='';
+}}	
+{count++;
+if ((count== texts.length )||(count== texts.length+texts.length)||(count== texts.length+texts.length+texts.length))
+{
+console.log(texts[i]+',last1');
+document.getElementById("offer").style.display='block';
+document.getElementById("box5").style.display='none';
+{document.getElementById('offer')
+.addEventListener('click', event => { // Step 2
+if (event.target.id === 'yes') { // Step 3
+document.getElementById("offer").style.display='block';
+}
+if (event.target.id === 'noy') { // Step 3
+document.getElementById("offer").style.display='none';
+document.getElementById("box5").style.display='block';
+
+}
+});
+}
+}
+}
+});
+let check = document.querySelector('#check');
+check.addEventListener('click', function (event) {
+if ((arr1[i]==enter.value)||(arr1[i].toLowerCase() == enter.value.toLowerCase()))
+{
+$("#input, #error").show(1000)
+$( '#error' ).text( "Ответ верный!" );
+}
+else {document.getElementById("error").innerHTML='Неверно, попробуйте еще раз';}
+document.getElementById("error").style.display='block';
+});
+});
+prev.addEventListener('click', function() {
+i--;
+if (i == -1) {
+i = texts.length - 1;
+}
+elem.innerHTML = texts[i];
+{if (elem.innerHTML == texts[i])
+{
+document.getElementById("demo").innerHTML =arr2[i];
+document.getElementById("input").style.display='none';
+document.getElementById("error").style.display='none';
+enter.value='';
+}}  });}
+});
+</script>
+</body>
+</html>
